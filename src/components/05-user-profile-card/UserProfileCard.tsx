@@ -10,11 +10,11 @@ const UserProfileCard = ({
   avatar = '/default-avatar.png',
 }: UserProfileCardProps) => {
   return (
-    <>
+    <div>
       <h2>{name}</h2>
       <p>{role}</p>
       <img src={avatar} alt={`${name}'s avatar`} />
-    </>
+    </div>
   );
 };
 
