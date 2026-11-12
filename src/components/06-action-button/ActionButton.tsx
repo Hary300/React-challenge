@@ -1,7 +1,7 @@
 interface ActionButtonProps {
   label: string;
   onClick: () => void;
-  disabled: boolean;
+  disabled?: boolean;
 }
 
 const ActionButton = ({ label, onClick, disabled }: ActionButtonProps) => {
