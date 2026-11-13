@@ -1,5 +1,11 @@
+import TodoFilter from '../components/12-todo-filter/TodoFilter';
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <TodoFilter />
+    </>
+  );
 }
 
 export default App;
