@@ -1,9 +1,9 @@
-import TodoFilter from '../components/12-todo-filter/TodoFilter';
+import ProductSearch from '../components/13-product-search/ProductSearch';
 
 function App() {
   return (
     <>
-      <TodoFilter />
+      <ProductSearch />
     </>
   );
 }
