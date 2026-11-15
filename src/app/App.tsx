@@ -1,9 +1,9 @@
-import ProductSearch from '../components/13-product-search/ProductSearch';
+import MessageCharacterCounter from '../components/14-message-character-counter/MessageCharacterCounter';
 
 function App() {
   return (
     <>
-      <ProductSearch />
+      <MessageCharacterCounter maxLength={10} />
     </>
   );
 }

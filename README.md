@@ -17,6 +17,8 @@ A collection of challenges for building React components with TypeScript. Each c
 | 09  | [Name Input](src/components/09-name-input/README.md)                     | Easy       |
 | 10  | [Todo List](src/components/10-todo-list/README.md)                       | Easy       |
 | 11  | [Todo List Completion](src/components/11-todo-completion/README.md)      | Easy       |
+| 12  | [Todo Filter](src/components/12-todo-filter/README.md)                    | Easy       |
+| 13  | [Product Search](src/components/13-product-search/README.md)              | Easy       |
 
 Click a challenge name to open its README and view the full instructions.
 
