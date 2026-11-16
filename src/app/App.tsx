@@ -1,9 +1,11 @@
-import MessageCharacterCounter from '../components/14-message-character-counter/MessageCharacterCounter';
+import SelectableInterests from '../components/16-selectable-interests/SelectableInterests';
 
 function App() {
   return (
     <>
-      <MessageCharacterCounter maxLength={10} />
+      <SelectableInterests
+        interests={['Programming', 'Design', 'Reading', 'Gaming', 'Music']}
+      />
     </>
   );
 }
