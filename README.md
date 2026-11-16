@@ -19,6 +19,10 @@ A collection of challenges for building React components with TypeScript. Each c
 | 11  | [Todo List Completion](src/components/11-todo-completion/README.md)      | Easy       |
 | 12  | [Todo Filter](src/components/12-todo-filter/README.md)                    | Easy       |
 | 13  | [Product Search](src/components/13-product-search/README.md)              | Easy       |
+| 14  | [Message Character Counter](src/components/14-message-character-counter/README.md) | Easy       |
+| 15  | [Password Visibility Toggle](src/components/15-password-visibility-toggle/README.md) | Easy       |
+| 16  | [Selectable Interests](src/components/16-selectable-interests/README.md) | Easy       |
+| 17  | [Country Selector](src/components/17-country-selector/README.md)          | Easy       |
 
 Click a challenge name to open its README and view the full instructions.
 
