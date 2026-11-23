@@ -1,13 +1,15 @@
-import ProductQuantitySelector from '../components/24-product-quantity-selector/ProductQuantitySelector';
+import ShoppingCartItem from '../components/25-shopping-cart-item/ShoppingCartItem';
 
 function App() {
   return (
     <>
-      <ProductQuantitySelector
+      <ShoppingCartItem
+        id='product-001'
         productName='Wireless Mouse'
+        category='Electronics'
         price={150000}
-        minQuantity={1}
-        maxQuantity={10}
+        initialQuantity={2}
+        onRemove={(id) => console.log(id)}
       />
     </>
   );
