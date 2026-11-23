@@ -1,9 +1,14 @@
-import StarRating from '../components/23-star-rating/StarRating';
+import ProductQuantitySelector from '../components/24-product-quantity-selector/ProductQuantitySelector';
 
 function App() {
   return (
     <>
-      <StarRating maxRating={5} />
+      <ProductQuantitySelector
+        productName='Wireless Mouse'
+        price={150000}
+        minQuantity={1}
+        maxQuantity={10}
+      />
     </>
   );
 }
