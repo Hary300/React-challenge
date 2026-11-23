@@ -1,5 +1,9 @@
 # Product Quantity Selector
 
+## Difficulty
+
+Medium
+
 ## Objective
 
 Build an interactive product quantity selector commonly used in e-commerce applications.

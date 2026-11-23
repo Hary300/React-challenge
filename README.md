@@ -24,13 +24,13 @@ A collection of challenges for building React components with TypeScript. Each c
 | 16  | [Selectable Interests](src/components/16-selectable-interests/README.md) | Easy       |
 | 17  | [Country Selector](src/components/17-country-selector/README.md)          | Easy       |
 | 18  | [Shopping Cart Quantity](src/components/18-shopping-cart-quantity/README.md) | Easy       |
-| 19  | [Dynamic Tag Input](src/components/19-dynamic-tag-input/README.md)        | Easy       |
-| 20  | [Contact Form](src/components/20-contact-form/README.md)                  | Easy       |
+| 19  | [Dynamic Tag Input](src/components/19-dynamic-tag-input/README.md)        | Medium     |
+| 20  | [Contact Form](src/components/20-contact-form/README.md)                  | Medium     |
 | 21  | [Accordion](src/components/21-accordion/README.md)                        | Easy       |
 | 22  | [Tabs Component](src/components/22-tabs-component/README.md)              | Easy       |
-| 23  | [Star Rating](src/components/23-star-rating/README.MD)                   | Easy       |
-| 24  | [Product Quantity Selector](src/components/24-product-quantity-selector/README.md) | Easy       |
-| 25  | [Shopping Cart Item](src/components/25-shopping-cart-item/README.md)      | Easy       |
+| 23  | [Star Rating](src/components/23-star-rating/README.MD)                   | Medium     |
+| 24  | [Product Quantity Selector](src/components/24-product-quantity-selector/README.md) | Medium     |
+| 25  | [Shopping Cart Item](src/components/25-shopping-cart-item/README.md)      | Medium     |
 
 Click a challenge name to open its README and view the full instructions.
 

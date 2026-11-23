@@ -1,5 +1,9 @@
 # Star Rating Component
 
+## Difficulty
+
+Medium
+
 ## Objective
 
 Build an interactive star rating component commonly used in product reviews, customer feedback forms, and rating systems.

@@ -1,5 +1,9 @@
 # Shopping Cart Item
 
+## Difficulty
+
+Medium
+
 ## Objective
 
 Build a reusable shopping cart item component commonly used in e-commerce applications.
