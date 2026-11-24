@@ -1,15 +1,24 @@
-import ShoppingCartItem from '../components/25-shopping-cart-item/ShoppingCartItem';
+import ShoppingCartSummary from '../components/26-shopping-cart-summary/ShoppingCartSummary';
 
 function App() {
   return (
     <>
-      <ShoppingCartItem
-        id='product-001'
-        productName='Wireless Mouse'
-        category='Electronics'
-        price={150000}
-        initialQuantity={2}
-        onRemove={(id) => console.log(id)}
+      <ShoppingCartSummary
+        items={[
+          {
+            id: 'product-001',
+            name: 'Wireless Mouse',
+            price: 150000,
+            quantity: 2,
+          },
+          {
+            id: 'product-002',
+            name: 'Mechanical Keyboard',
+            price: 250000,
+            quantity: 1,
+          },
+        ]}
+        shippingCost={15000}
       />
     </>
   );
