@@ -31,6 +31,9 @@ A collection of challenges for building React components with TypeScript. Each c
 | 23  | [Star Rating](src/components/23-star-rating/README.MD)                   | Medium     |
 | 24  | [Product Quantity Selector](src/components/24-product-quantity-selector/README.md) | Medium     |
 | 25  | [Shopping Cart Item](src/components/25-shopping-cart-item/README.md)      | Medium     |
+| 26  | [Shopping Cart Summary](src/components/26-shopping-cart-summary/README.md) | Medium     |
+| 27  | [Product Search Filter](src/components/27-product-search-filter/README.md) | Medium     |
+| 28  | [Product Sort Selector](src/components/28-product-sort-selector/README.md) | Medium     |
 
 Click a challenge name to open its README and view the full instructions.
 
