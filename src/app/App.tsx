@@ -1,24 +1,35 @@
-import ShoppingCartSummary from '../components/26-shopping-cart-summary/ShoppingCartSummary';
+import ProductSearchFilter from '../components/27-product-search-filter/ProductSearchFilter';
 
 function App() {
   return (
     <>
-      <ShoppingCartSummary
-        items={[
+      <ProductSearchFilter
+        products={[
           {
             id: 'product-001',
             name: 'Wireless Mouse',
+            category: 'Electronics',
             price: 150000,
-            quantity: 2,
           },
           {
             id: 'product-002',
             name: 'Mechanical Keyboard',
+            category: 'Electronics',
             price: 250000,
-            quantity: 1,
+          },
+          {
+            id: 'product-003',
+            name: 'Water Bottle',
+            category: 'Lifestyle',
+            price: 75000,
+          },
+          {
+            id: 'product-004',
+            name: 'Laptop Stand',
+            category: 'Accessories',
+            price: 120000,
           },
         ]}
-        shippingCost={15000}
       />
     </>
   );
