@@ -1,16 +1,16 @@
-import ProductPriceRangeFilter from '../components/29-product-price-range-filter/ProductPriceRangeFilter';
+import ProductStockStatus from '../components/30-product-stock-status/ProductStockStatus';
 
 const products = [
-  { id: '1', name: 'Keyboard', price: 150000 },
-  { id: '2', name: 'Mouse', price: 75000 },
-  { id: '3', name: 'Monitor', price: 1250000 },
-  { id: '4', name: 'Headset', price: 350000 },
+  { id: '1', name: 'Keyboard', stock: 15 },
+  { id: '2', name: 'Mouse', stock: 3 },
+  { id: '3', name: 'Monitor', stock: 0 },
+  { id: '4', name: 'Headset', stock: 5 },
 ];
 
 function App() {
   return (
     <>
-      <ProductPriceRangeFilter products={products} maxPrice={500000} />
+      <ProductStockStatus products={products} lowStockThreshold={5} />
     </>
   );
 }
